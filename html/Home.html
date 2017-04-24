@@ -10,8 +10,8 @@
   
   <body>
 
-    <header>
-        <div class="header">
+    <header class="header">
+        <div class="content-wrap">
             <nav class="navigation"> 
               <ul>
                 <li><a class="active" href="Home.html">Home</a></li>
@@ -20,27 +20,78 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a id="right" href="#">Search</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><form class="right"><input type="text" name="search" placeholder="Search.."></form></li>
               </ul>
             </nav>
         </div>
     </header>
 
-    <footer>
-      <div class="header">
-          <nav class="navigation"> 
-            <ul>
-              <li><a class="active" href="Home.html">Home</a></li>
-              <li><a href="Anime-List.html">Anime List</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a id="right" href="#">Search</a></li>
-            </ul>
-          </nav>
+    <div class="Most-Popular">
+      <div class="content-wrap">
+        <h1>Most Popular</h1>
+          <div class="Swiper-container">
+            <div class="Preview-Buton"></div>
+            <div class="Next-Button"></div>
+              <div class="Manga">
+                <div class="item">
+                  <img src="../img/cover.jpg" height="246px" width="180px" alt="">
+                  <div class="item-overlay top">
+                    <div class="Information">
+                      <a href="#">Title</a>
+                      <div class="Genre">
+                        <label for="Genre">Genre: </label>
+                        <span>
+                          <a href="#">Action</a>
+                            ,
+                          <a href="#">Adventure</a>
+                            ,
+                          <a href="#">Fantasy</a>
+                            ,
+                          <a href="#">Game</a>
+                            ,
+                          <a href="#">Harem</a>
+                        </span>
+                      </div>
+                      <div class="Description">
+                        <label for="Description">Desription: </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="../img/cover.jpg" height="246px" width="180px" alt="">
+                  <div class="item-overlay top">bottom to top</div>
+                </div>
+                <div class="item">
+                  <img src="../img/cover.jpg" height="246px" width="180px" alt="">
+                  <div class="item-overlay top">bottom to top</div>
+                </div>
+                <div class="item">
+                  <img src="../img/cover.jpg" height="246px" width="180px" alt="">
+                  <div class="item-overlay top">bottom to top</div>
+                </div>
+                <div class="item">
+                  <img src="../img/cover.jpg" height="246px" width="180px" alt="">
+                  <div class="item-overlay top">bottom to top</div>
+                </div>
+                <div class="item">
+                  <img src="../img/cover.jpg" height="246px" width="180px" alt="">
+                  <div class="item-overlay top">bottom to top</div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer"> 
+      <div class="content-wrap">
+        <a href="https://github.com/JustARandomPerson/Anime-Site"><img src="../img/github-logo.jpg" alt="GitHub Logo" height="38px" width="38px"></a>      
+        <p>This was made by:JustARandomPerson</p>
       </div>
     </footer>
+
   </body>
 
 </html>
